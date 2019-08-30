@@ -24,7 +24,7 @@ public:
     if (ns.count() < 1000)
       std::cout << " (" << ns.count() << " nanoseconds)";
     std::cout << "\n";
-    start = std::chrono::high_resolution_clock::now();
+    reset();
   }
 };
 
